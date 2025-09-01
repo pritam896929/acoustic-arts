@@ -41,9 +41,9 @@
                 <div class="carousel-item active">
                     <div class="row d-flex">
                         <div class="col-md-6">
-                            <img src="{{ asset('/assets/img/attari.png') }}" class="d-block w-100 rounded img-click"
+                            <img src="{{ asset('/assets/img/ATTARI.PNG') }}" class="d-block w-100 rounded img-click"
                                 alt="Project 1" data-bs-toggle="modal" data-bs-target="#imageModal"
-                                data-img="{{ asset('/assets/img/attari.png') }}">
+                                data-img="{{ asset('/assets/img/ATTARI.PNG') }}">
                         </div>
                         <div class="col-md-6">
                             <div class="p-3 bg-secondary h-100 border">

@@ -57,7 +57,8 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                
+                                <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control bg-transparent" id="subject"
                                             placeholder="Subject" name="subject" value="{{ old('subject') }}">
@@ -67,7 +68,8 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-12">
+
+                                <div class="col-12-6">
                                     <div class="form-floating">
                                         <textarea class="form-control bg-transparent" placeholder="Leave a message here"
                                             id="message" style="height: 100px" name="message"></textarea>
@@ -77,9 +79,11 @@
                                         @enderror
                                     </div>
                                 </div>
-                                <div class="col-12">
+
+                                <div class="col-12-6">
                                     <button class="btn btn-primary w-100 py-2 border" type="submit">Send Message</button>
                                 </div>
+
                                 <div class="col-md-12">
                                     @if (session('success'))
                                         <div class="mb-0 text-success">
@@ -87,7 +91,6 @@
                                         </div>
                                     @endif
                                 </div>
-
                             </div>
                         </form>
                     </div>
