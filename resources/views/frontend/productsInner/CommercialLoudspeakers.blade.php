@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
+
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+
         <div class="container text-center py-5">
             <h1 class="display-3 text-white text-uppercase mb-3 animated slideInDown">Commercial Loudspeakers CM20</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -35,7 +37,7 @@
                             <img src="https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg"
                                 class="d-block w-100 img-fluid" alt="shoe">
                         </div> --}}
-                        
+
                     </div>
                     <!-- Thumbnails -->
                     <div class="mt-3 d-flex justify-content-center gap-2">
@@ -89,6 +91,7 @@
                         Touch</a>
                 </div>
             </div>
+
         </div>
     </div>
 

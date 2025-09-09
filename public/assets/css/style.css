@@ -70,8 +70,9 @@ nav.navbar.navbar-expand-lg.bg-secondary.navbar-dark.sticky-top.py-lg-0.px-lg-5.
     justify-content: center;
     font-weight: normal;
 }
-.btn-danger{
- background: #eb1616 !important;
+
+.btn-danger {
+    background: #eb1616 !important;
 }
 
 /*** Navbar ***/
@@ -517,6 +518,30 @@ a.button-1 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card.text-dark.text-center {
     border-bottom: 2px solid #eb1616 !important;
+}
+
+.project-img {
+    height: 350px;
+    /* Fixed height for all images */
+    object-fit: cover;
+    /* Crop/scale properly */
+}
+
+.project-box {
+    height: 350px;
+    /* Same as image height */
+    overflow-y: auto;
+    /* Scroll if text is too long */
+}
+
+.fixed-image {
+    height: 100% !important;
+    /* parent row ke equal height */
+    min-height: 400px;
+    /* ek fixed minimum height */
+    object-fit: cover;
+    /* image crop karke fit karegi */
 }
