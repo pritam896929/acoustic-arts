@@ -15,6 +15,7 @@
         {{-- <h1 class="mb-0 text-primary text-uppercase"><i class="fa-solid fa-speaker me-3"></i>
             Acoustic arts</h1> --}}
     </a>
+    
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +30,8 @@
                     <a href="{{ route('teams') }}" class="dropdown-item">Team</a>
                     <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a> --}}
                     {{-- <a href="404.html" class="dropdown-item">404 Page</a> --}}
-                {{-- </div>
+                    {{--
+                </div>
             </div> --}}
             <a href="{{ route('products') }}" class="nav-item nav-link nav-link-ltr">Products</a>
             <a href="{{ route('project') }}" class="nav-item nav-link nav-link-ltr">Projects</a>

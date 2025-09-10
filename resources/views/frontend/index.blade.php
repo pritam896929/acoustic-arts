@@ -532,14 +532,14 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4 justify-content-around">
-                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s"
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s"
                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div
                         class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 w-100 ps-0 border border">
                         <img src="{{ asset('assets/img/conferencing.png') }}" alt="" class="w-100">
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
                     style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div
                         class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
@@ -609,8 +609,8 @@
             </div>
         </div>
     </div>
-    <!-- Working Hours End -->
 
+    <!-- Working Hours End -->
     <!-- Testimonial Start -->
     {{-- <div class="container-xxl py-5">
         <div class="container">
