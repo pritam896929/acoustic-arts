@@ -16,14 +16,16 @@ class InnerController extends Controller
     {
         return view('frontend.brand-inner-page.powersoft');
     }
-       public function audix()
+    public function audix()
     {
         return view('frontend.brand-inner-page.audix');
     }
-    public function void(){
+    public function void()
+    {
         return view('frontend.brand-inner-page.void');
     }
-    public function cloud(){
+    public function cloud()
+    {
         return view('frontend.brand-inner-page.cloud');
     }
     /*service page*/
@@ -39,13 +41,33 @@ class InnerController extends Controller
     {
         return view('frontend.services-inner-page.ease-simulation');
     }
-    public function goldenear(){
+    public function goldenear()
+    {
         return view('frontend.brand-inner-page.goldenear');
     }
-    public function JL_Audio(){
-      return view('frontend.brand-inner-page.jl_audio');
+    public function JL_Audio()
+    {
+        return view('frontend.brand-inner-page.jl_audio');
     }
-    public  function commercialLoudspeaker(){
+    public  function commercialLoudspeaker()
+    {
         return view('frontend.productsInner.CommercialLoudspeakers');
+    }
+    public  function voidair()
+    {
+        return view('frontend.productsInner.voidair8');
+    }
+    public function audixmicrophone()
+    {
+        return view('frontend.productsInner.audix-microphone');
+    }
+    public function CloudelEctronicsCeilingSpeaker(){
+        return view('frontend.productsInner.CloudElectronics');
+    }
+    public function Aon3(){
+        return view('frontend.productsInner.Aon3');
+    }
+    public function JLAudioCustomFitCarSpeakers(){
+        return view('frontend.productsInner.JLAudioCustom-Fit-Car-Speakers');
     }
 }

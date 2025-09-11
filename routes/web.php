@@ -56,3 +56,9 @@ Route::post('/send-test-email', [EmailController::class, 'sendTestEmail'])->name
 
 // *inner product page routes*//
 Route::get('commercialLoudspeaker', [InnerController::class, 'commercialLoudspeaker'])->name('commercialLoudspeakers');
+
+Route::get('voidair-8', [InnerController::class, 'voidair'])->name('voidair');
+Route::get('audix-microphone', [InnerController::class, 'audixmicrophone'])->name('audixmicrophone');
+Route::get('242/CVS-C83T', [InnerController::class, 'CloudelEctronicsCeilingSpeaker'])->name('CloudelEctronicsCeilingSpeaker');
+Route::get('Goldenear-Aon-3', [InnerController::class, 'Aon3'])->name('Aon3');
+Route::get('JL-Audio-Custom-Fit-Car-Speakers', [InnerController::class, 'JLAudioCustomFitCarSpeakers'])->name('JLAudioCustomFitCarSpeakers');

@@ -46,7 +46,7 @@
                         <p class="card-text">The Void Air 8 is a compact two-way loudspeaker designed to deliver powerful,
                             high-fidelity sound with a sleek, modern aesthetic. Equipped with an 8-inch low-frequency driver
                             and a 1-inch neodymium high-frequency compression driver.</p>
-                        <a href="">Read more..</a>
+                        <a href="{{ route('voidair') }}">Read more..</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                         <p class="card-text">A boundary condenser microphone is designed to capture clear and natural sound
                             by being placed on flat surfaces such as tables, floors, or walls. Its boundary-layer design
                             reduces phase interference and picks up voices evenly across the spaces.</p>
-                        <a href="">Read more..</a>
+                        <a href="{{ route('audixmicrophone') }}">Read more..</a>
 
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                         <p class="card-text">8″ Ceiling Speaker
                             2-way coaxial, open-back design with 8Ω (max 50W) or 100V (24W/12W/6W) options. Available in
                             white or black with a magnetic grille.</p>
-                        <a href="">Read more..</a>
+                        <a href="{{ route('CloudelEctronicsCeilingSpeaker') }}">Read more..</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                         <p class="card-text">The Aon 3 Bookshelf Monitor, standing just 14″ tall, is a compact yet powerful
                             speaker engineered for high-definition sound. It features a 7″ cast-basket mid-bass driver with
                             a Multi-Vaned Phase Plug.</p>
-                        <a href="">Read more..</a>
+                        <a href="{{ route('Aon3') }}">Read more..</a>
 
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                         <p class="card-text">Designed for easy, drop-in installations, the JL Audio Custom Fit speakers can
                             be used as mid-tweeters in passive systems or in active systems as true mid-range drivers or
                             mid-tweeters.</p>
-                        <a href="">Read more..</a>
+                        <a href="{{ route('JLAudioCustomFitCarSpeakers') }}">Read more..</a>
 
                     </div>
                 </div>
