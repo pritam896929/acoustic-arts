@@ -250,8 +250,15 @@ span.d-block.bg-danger.mt-2 {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 450px;
+
     }
 
+    /* mobile header background color */
+    .navbar .navbar-nav {
+        background: black !important;
+        padding: 0px;
+        margin-top: -15px;
+    }
 
     #header-carousel .carousel-item img {
         position: absolute;
@@ -264,6 +271,9 @@ span.d-block.bg-danger.mt-2 {
         position: absolute !important;
         right: 0;
     }
+    img.w-75.width {
+    width: 50% !IMPORTANT;
+}
 }
 
 @media (max-width: 480px) {
@@ -272,6 +282,16 @@ span.d-block.bg-danger.mt-2 {
         position: absolute !important;
         right: 0 !important;
     }
+
+    /* mobile header background color */
+     .navbar .navbar-nav {
+        background: black !important;
+        padding: 0px;
+        margin-top: -15px;
+    }
+    img.w-75.width {
+    width: 50% !IMPORTANT;
+}
 }
 
 button.navbar-toggler.me-4 {

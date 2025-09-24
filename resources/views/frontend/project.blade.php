@@ -89,7 +89,7 @@
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
-                                <h3>IIT Project</h3>
+                                <h3>IIT, Roorkee</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio velit dolore
                                     repellat?
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
-                                <h3>Delhi Isckon</h3>
+                                <h3>Isckon, New Delhi</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio velit dolore
                                     repellat?
@@ -125,9 +125,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/G2.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G2.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G2.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -146,9 +146,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/G1.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G1.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G1.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -167,9 +167,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/G6.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G6.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G6.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -188,9 +188,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/stadium.jpg
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/stadium.jpg
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/stadium.jpg
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -209,9 +209,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/prem-mandir.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/prem-mandir.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/prem-mandir.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -230,9 +230,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/G7.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G7.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G7.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -251,9 +251,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/G8.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G8.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G8.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -272,9 +272,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/playboy-club.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/playboy-club.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/playboy-club.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -293,9 +293,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/Vidyalankar.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Vidyalankar.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Vidyalankar.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
@@ -314,9 +314,9 @@
                     <div class="row g-4 d-flex align-items-stretch">
                         <div class="col-md-6">
                             <img src="{{ asset('/assets/img/Hybrid.webp
-                                        ') }}" class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
-                                data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Hybrid.webp
-                                        ') }}">
+                                            ') }}" class="d-block w-100 rounded shadow project-img img-click"
+                                alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Hybrid.webp
+                                            ') }}">
                         </div>
                         <div class="col-md-6 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">

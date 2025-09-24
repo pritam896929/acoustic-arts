@@ -83,42 +83,6 @@
     </div>
 
     <!-- Modern Acoustic Arts Carousel End -->
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-3 ps-0 border">
-                    {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                        style="width: 60px; height: 60px;">
-                        <img class="img-fluid" src="img/haircut.png" alt="">
-                    </div> --}}
-                    <div class="ps-4">
-                        <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                            WELCOME
-                            <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                        </h3>
-
-                        <p class="">We are Acoustic Arts Pvt. Ltd., India’s premier audio-visual distribution company since
-                            1999. For over 25 years, we have been redefining how India experiences sound and vision,
-                            delivering world-class AV solutions that blend cutting-edge technology with unmatched
-                            craftsmanship.
-                            With a hand-picked portfolio of the finest global brands, competitive pricing, nationwide reach,
-                            and the most trusted technical support team in the industry, we ensure that every installation,
-                            every system, and every product exceeds expectations.
-                            From car audio that turns drives into concerts, to home theatres that rival cinema halls, from
-                            audiophile-grade stereo systems to immersive installed sound for commercial spaces, and from
-                            precision headphones to portable Bluetooth speakers, Acoustic Arts brings the world’s most
-                            celebrated AV experiences directly to your doorstep — backed by genuine warranty and lifetime
-                            after-sales care.
-                            Experience the sound of perfection. Experience Acoustic Arts.</p>
-                        {{-- <span class="text-uppercase text-primary">From $15</span> --}}
-                    </div>
-                    {{-- <a class="btn btn-square" href="{{ route('biamp') }}"><i class="fa fa-plus text-primary"></i></a>
-                    --}}
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Service Start copy-->
     <div class="container-xxl py-5">
         <div class="container">
@@ -141,13 +105,13 @@
                                 <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
                             </h3>
 
-                            <p class="">Biamp is a global leader in networked audio-visual solutions, trusted for its
-                                seamless integration, powerful DSP processing, and rock-solid reliability. At Acoustic-Arts,
-                                we use Biamp to bring scalable, smart control into boardrooms, auditoriums, houses of
-                                worship, and more.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <p class="">
+                                Biamp is a global leader in networked audio-visual solutions, trusted worldwide for its seamless integration, powerful DSP processing, and rock-solid reliability. At Acoustic-Arts, we use Biamp to bring scalable, intelligent, and smart control into boardrooms, auditoriums, houses of worship, and more.
+                            </p>
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('biamp') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('biamp') }}"><i class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -166,10 +130,10 @@
                                 amplifier technology with intelligent DSP control. Known for their energy efficiency,
                                 reliability, and compact design, Powersoft amps are the powerhouse behind concert venues,
                                 stadiums, and mission-critical installations.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('powersoft') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('powersoft') }}"><i
-                                class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -184,14 +148,16 @@
                                 <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
                             </h3>
                             <p>
-                                From corporate boardrooms to live music stages, 
-                                Audix    
+                                From corporate boardrooms to live music stages,
+                                Audix
                                 microphones are designed to capture
                                 sound with pristine clarity. Engineered in the USA, Audix products are trusted by
                                 professionals for their rugged build, feedback resistance, and pure voice reproduction.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('audix') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('audix') }}"><i class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href="{{ route('audix') }}"><i
+                                class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
 
@@ -207,16 +173,17 @@
                                 Void
                                 <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
                             </h3>
-                            <p>Void is where art meets sound. Their uniquely designed, high-performance loudspeakers are
-                                both sonic and visual masterpieces—perfect for premium clubs, lounges, and lifestyle venues.
+                            <p>Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers are both sonic and visual masterpieces—perfect for premium clubs, lounges, lifestyle venues, and beyond.
                             </p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('void') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('void') }}"><i class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href="{{ route('void') }}"><i
+                                class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
+                    <div class="service-item position-relative overflow-hidden   bg-secondary d-flex h-100 p-5 ps-0 border">
                         {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
                             style="width: 60px; height: 60px;">
                             <img class="img-fluid" src="img/hair-dyeing.png" alt="">
@@ -227,12 +194,12 @@
                                 Cloud
                                 <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
                             </h3>
-                            <p>Cloud is the backbone of smart multi-zone audio. Whether it's a hotel, restaurant, mall, or
-                                public building, Cloud allows you to control background music, paging, and room-to-room
-                                audio effortlessly.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <p>Cloud is the trusted backbone of smart multi-zone audio. Whether it’s a hotel, restaurant, shopping mall, or public building, Cloud enables effortless, reliable control of background music, announcements, paging, and seamless audio.</p>
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('cloud') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('cloud') }}"><i class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href="{{ route('cloud') }}"><i
+                                class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -249,10 +216,11 @@
                             <p>Known for their ribbon tweeters and ultra-transparent sound, GoldenEar speakers are revered
                                 in the home theatre and Hi-Fi world. With wide imaging and natural tonality, they transform
                                 rooms into immersive soundscapes.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('goldenear') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('goldenear') }}"><i
-                                class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href="{{ route('goldenear') }}"><i
+                                class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -262,7 +230,6 @@
                             <img class="img-fluid" src="img/stacking.png" alt="">
                         </div> --}}
                         <div class="ps-4">
-
                             <h3 class="text-uppercase mb-3 position-relative d-inline-block">
                                 JL Audio
                                 <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
@@ -270,9 +237,10 @@
                             <p>When it comes to deep, controlled, and distortion-free bass, JL Audio stands unmatched. Their
                                 subwoofers are engineered for accuracy and impact—essential for both home theatres and
                                 high-performance audio systems.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
+                                    href="{{ route('JL_Audio') }}">Read more..</a></span>
                         </div>
-                        <a class="btn btn-square" href="{{ route('JL_Audio') }}"><i class="fa fa-plus text-primary"></i></a>
+                        {{-- <a class="btn btn-square" href="{{ route('JL_Audio') }}"><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
             </div>
@@ -552,7 +520,8 @@
                                 DSP platforms, paired with advanced beamtracking microphones and intuitive control
                                 interfaces, provide a seamless, immersive audio experience. Whether participants are
                                 speaking softly or moving around the table, in-person or joining remotely, Biamp ensures
-                                consistent, high-fidelity sound across the entire space.</p>
+                                consistent, high-fidelity sound across the entire space.
+                            </p>
                         </div>
                     </div>
                 </div>

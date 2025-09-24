@@ -7,7 +7,7 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center text-uppercase mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    {{-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> --}}
                     <li class="breadcrumb-item text-primary active" aria-current="page">Service</li>
                 </ol>
             </nav>
@@ -25,7 +25,7 @@
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-2">
                         <div class="ps-0">
-                            <img class="img-fluid" src="{{ asset('assets/img/S2.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/img/Distributionship.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-2">
                         <div class="ps-0">
-                            <img class="img-fluid" src="{{ asset('assets/img/S01.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/img/djmixer.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,8 @@
                 </div>
                 {{-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
-                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
+                            style="width: 60px; height: 60px;">
                             <img class="img-fluid" src="img/mans-shave.png" alt="">
                         </div>
                         <div class="ps-4">
@@ -114,7 +115,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
-                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
+                            style="width: 60px; height: 60px;">
                             <img class="img-fluid" src="img/hair-dyeing.png" alt="">
                         </div>
                         <div class="ps-4">
@@ -127,7 +129,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
-                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
+                            style="width: 60px; height: 60px;">
                             <img class="img-fluid" src="img/mustache.png" alt="">
                         </div>
                         <div class="ps-4">
@@ -140,7 +143,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
-                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
+                            style="width: 60px; height: 60px;">
                             <img class="img-fluid" src="img/stacking.png" alt="">
                         </div>
                         <div class="ps-4">

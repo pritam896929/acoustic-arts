@@ -11,19 +11,22 @@
 <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
     data-wow-delay="0.1s">
     <a href="{{ url('/') }}" class="navbar-brand ms-4 ms-lg-0">
-        <img src="{{ asset('assets/img/acoustic.png') }}" alt="" class="w-75">
+        <img src="{{ asset('assets/img/acoustic.png') }}" alt="" class="w-75 width">
         {{-- <h1 class="mb-0 text-primary text-uppercase"><i class="fa-solid fa-speaker me-3"></i>
             Acoustic arts</h1> --}}
     </a>
-    
+
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="{{ route('index') }}" class="nav-item nav-link active nav-link-ltr">Home</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link nav-link-ltr">About</a>
-            <a href="{{ route('service') }}" class="nav-item nav-link nav-link-ltr">Service</a>
+
+            <a href="{{ route('index') }}" class="nav-item nav-link active nav-link-ltr one">Home</a>
+
+            <a href="{{ route('about') }}" class="nav-item nav-link nav-link-ltr one">About</a>
+
+            <a href="{{ route('service') }}" class="nav-item nav-link nav-link-ltr one">Service</a>
             {{-- <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                 <div class="dropdown-menu m-0">
@@ -33,12 +36,14 @@
                     {{--
                 </div>
             </div> --}}
-            <a href="{{ route('products') }}" class="nav-item nav-link nav-link-ltr">Products</a>
-            <a href="{{ route('project') }}" class="nav-item nav-link nav-link-ltr">Projects</a>
+            {{-- <a href="{{ route('products') }}" class="nav-item nav-link nav-link-ltr one">Products</a> --}}
+
+            <a href="{{ route('project') }}" class="nav-item nav-link nav-link-ltr one">Projects</a>
+
+            <a href="{{ route('contact') }}" class="btn btn-primary rounded-0 py-2 px-lg-1 d-lg-block one">Get in
+                Touch<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
 
-        <a href="{{ route('contact') }}" class="btn btn-primary rounded-0 py-2 px-lg-4 d-none d-lg-block">Get in
-            Touch<i class="fa fa-arrow-right ms-3"></i></a>
 
     </div>
 </nav>

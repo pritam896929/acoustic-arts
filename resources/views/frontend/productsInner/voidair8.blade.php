@@ -77,7 +77,9 @@
                 </div> --}}
 
                 <h5>About this item:</h5>
-                <p>The Void Air 8 is a two-way passive surface-mount loudspeaker that combines high-end performance with striking visual design. It’s part of Void’s Air Series, built for venues that demand both superior sound quality and aesthetic appeal.</p>
+                <p>The Void Air 8 is a two-way passive surface-mount loudspeaker that combines high-end performance with
+                    striking visual design. It’s part of Void’s Air Series, built for venues that demand both superior sound
+                    quality and aesthetic appeal.</p>
                 <ul class="list-unstyled">
                     <li><strong>Color:</strong> White/Black</li>
                     <li><strong>Available:</strong> <span class="text-success">In stock</span></li>
