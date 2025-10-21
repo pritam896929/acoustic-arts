@@ -40,12 +40,16 @@
                 <!-- Over 25 Years Section -->
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item h-100" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5 h-100">
-                            <h5 class="text-uppercase">Over 25 Years of Sound Innovation</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">Over 25 Years of Sound Innovation</h5>
                             <span class="text-light">
-                                It all began in 1999 with two passionate audiophiles and a shared mission — to bring world-class sound to India. Since then, Acoustic Arts Pvt. Ltd. has evolved into a nationally respected leader in the sales and distribution of high-end audiovisual systems.
+                                It all began in 1999 with two passionate audiophiles and a shared mission — to bring
+                                world-class sound to India. Since then, Acoustic Arts Pvt. Ltd. has evolved into a
+                                nationally respected leader in the sales and distribution of high-end audiovisual systems.
                                 <br>
-                                Representing some of the most renowned global manufacturers, we combine deep industry knowledge, technical precision, premium product lines, and ethical business practices to deliver exceptional value.
+                                Representing some of the most renowned global manufacturers, we combine deep industry
+                                knowledge, technical precision, premium product lines, and ethical business practices to
+                                deliver exceptional value.
                             </span>
                         </div>
                     </div>
@@ -54,10 +58,13 @@
                 <!-- Mission -->
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item h-100" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5 h-100">
-                            <h5 class="text-uppercase">Our Mission</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">Our Mission</h5>
                             <span class="text-light">
-                                At Acoustic Arts, our mission is to deliver total AV integration solutions using the latest technologies, executed with precision, and always on schedule. We are committed to providing outstanding service, upholding professional ethics, and continuously striving for excellence in every project we undertake.
+                                At Acoustic Arts, our mission is to deliver total AV integration solutions using the latest
+                                technologies, executed with precision, and always on schedule. We are committed to providing
+                                outstanding service, upholding professional ethics, and continuously striving for excellence
+                                in every project we undertake.
                             </span>
                         </div>
                     </div>
@@ -66,23 +73,27 @@
                 <!-- What We Do -->
                 <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5">
-                            <h5 class="text-uppercase">What We Do</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">What We Do</h5>
                             <span class="text-light">
-                                We serve over 150 system integrators and AV specialists across India, offering advanced audio solutions that are tailored, integrated, and future-ready. With over 1500 successful projects, our team handles everything from concept to commissioning — including acoustic design, project management, turnkey execution, and long-term maintenance.
+                                We serve over 150 system integrators and AV specialists across India, offering advanced
+                                audio solutions that are tailored, integrated, and future-ready. With over 1500 successful
+                                projects, our team handles everything from concept to commissioning — including acoustic
+                                design, project management, turnkey execution, and long-term maintenance.
                             </span>
                         </div>
                     </div>
                 </div>
-
                 <!-- Awards & Recognition -->
                 <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5">
-                            <h5 class="text-uppercase">Awards & Recognition</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">Awards & Recognition</h5>
                             <span class="text-light">
-                                Acoustic Arts Pvt. Ltd. is a certified partner of top global AV brands including Biamp, Powersoft, GoldenEar, Cloud, Audix & JL Audio. 
-                                We have received multiple industry awards for excellence in AV integration and innovative solutions.
+                                Acoustic Arts Pvt. Ltd. is a certified partner of top global AV brands including Biamp,
+                                Powersoft, GoldenEar, Cloud, Audix & JL Audio.
+                                We have received multiple industry awards for excellence in AV integration and innovative
+                                solutions.
                             </span>
                         </div>
                     </div>
@@ -91,10 +102,11 @@
                 <!-- Vision -->
                 <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5">
-                            <h5 class="text-uppercase">Our Vision</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">Our Vision</h5>
                             <span class="text-light">
-                                To redefine India’s audio-visual landscape by pioneering cutting-edge solutions, creating immersive experiences, and delivering unmatched quality in every project.
+                                To redefine India’s audio-visual landscape by pioneering cutting-edge solutions, creating
+                                immersive experiences, and delivering unmatched quality in every project.
                             </span>
                         </div>
                     </div>
@@ -103,10 +115,11 @@
                 <!-- Selected Projects -->
                 <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5">
-                            <h5 class="text-uppercase">Selected Projects</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">Selected Projects</h5>
                             <span class="text-light">
-                                Successfully executed high-end AV solutions in luxury residences, corporate offices, auditoriums, and entertainment venues across India.
+                                Successfully executed high-end AV solutions in luxury residences, corporate offices,
+                                auditoriums, and entertainment venues across India.
                             </span>
                         </div>
                     </div>
@@ -115,10 +128,11 @@
                 <!-- Founder Quote -->
                 <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item" style="border-bottom: 2px solid">
-                        <div class="bg-secondary p-4 py-5">
-                            <h5 class="text-uppercase">From Our Founder</h5>
+                        <div class="bg-white rounded-4 shadow-lg p-5 h-100">
+                            <h5 class="text-uppercase text-danger">From Our Founder</h5>
                             <span class="text-light">
-                                "Our mission has always been more than delivering sound – it's about crafting experiences that leave a lasting impact." – Acoustic Arts Founder
+                                "Our mission has always been more than delivering sound – it's about crafting experiences
+                                that leave a lasting impact." – Acoustic Arts Founder
                             </span>
                         </div>
                     </div>
@@ -130,37 +144,36 @@
     <!-- Company Story & Mission End -->
 
     <!-- Stats Section Start -->
-    <section class="py-5" style="background-color: #191C24; color: #ffffff;">
+    <section class="py-5 bg-dark text-white">
         <div class="container">
             <div class="row text-center g-4">
-
                 <!-- Dealers & Integrators -->
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="p-4 rounded-4 shadow" style="background-color: #1f222d;">
-                        <div style="font-size: 3rem; color: #eb1616; font-weight: 700;">
+                <div class="col-md-4">
+                    <div class="p-5 bg-secondary rounded-4 shadow text-center">
+                        <h2 class="display-4 text-danger fw-bold">
                             <span class="counter" data-target="150">0</span>+
-                        </div>
-                        <p class="text-uppercase mt-2 mb-0" style="letter-spacing: 1px; font-size: 0.9rem;">Dealers & Integrators</p>
+                        </h2>
+                        <p class="text-uppercase mt-3 mb-0 fs-6 fw-medium">Dealers & Integrators</p>
                     </div>
                 </div>
 
-                <!-- Projects -->
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="p-4 rounded-4 shadow" style="background-color: #1f222d;">
-                        <div style="font-size: 3rem; color: #eb1616; font-weight: 700;">
+                <!-- Projects Completed -->
+                <div class="col-md-4">
+                    <div class="p-5 bg-secondary rounded-4 shadow text-center">
+                        <h2 class="display-4 text-danger fw-bold">
                             <span class="counter" data-target="1500">0</span>+
-                        </div>
-                        <p class="text-uppercase mt-2 mb-0" style="letter-spacing: 1px; font-size: 0.9rem;">Projects Completed</p>
+                        </h2>
+                        <p class="text-uppercase mt-3 mb-0 fs-6 fw-medium">Projects Completed</p>
                     </div>
                 </div>
 
                 <!-- Years of Experience -->
-                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="p-4 rounded-4 shadow" style="background-color: #1f222d;">
-                        <div style="font-size: 3rem; color: #eb1616; font-weight: 700;">
+                <div class="col-md-4">
+                    <div class="p-5 bg-secondary rounded-4 shadow text-center">
+                        <h2 class="display-4 text-danger fw-bold">
                             <span class="counter" data-target="25">0</span>+
-                        </div>
-                        <p class="text-uppercase mt-2 mb-0" style="letter-spacing: 1px; font-size: 0.9rem;">Years of Experience</p>
+                        </h2>
+                        <p class="text-uppercase mt-3 mb-0 fs-6 fw-medium">Years of Experience</p>
                     </div>
                 </div>
 
@@ -168,4 +181,5 @@
         </div>
     </section>
     <!-- Stats Section End -->
+
 @endsection

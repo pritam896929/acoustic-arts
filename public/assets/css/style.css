@@ -9,6 +9,10 @@
 html {
     scroll-behavior: smooth !important;
 }
+body{
+    background: white !important;
+    
+}
 
 
 .back-to-top {
@@ -75,6 +79,9 @@ nav.navbar.navbar-expand-lg.bg-secondary.navbar-dark.sticky-top.py-lg-0.px-lg-5.
     background: #eb1616 !important;
 }
 
+.danger {
+    color: #eb1616 !important;
+}
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;

@@ -7,6 +7,15 @@
             height: 2rem;
             font-weight: 900 !important;
         }
+
+        .service-card {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
     </style>
     <!-- Modern Acoustic Arts Carousel Start -->
     <div class="container-fluid p-0 position-relative">
@@ -82,294 +91,268 @@
         </div>
     </div>
 
+
     <!-- Modern Acoustic Arts Carousel End -->
-    <!-- Service Start copy-->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                {{-- <p class="d-inline-block bg-secondary text-primary py-1 px-4">Services</p> --}}
-                <h1 class="text-uppercase">Powered by the Best – Experience Iconic Audio Brands</h1>
-                <p>At Acoustic-Arts, we partner only with industry-leading audio brands that guarantee performance,
-                    innovation, and reliability. </p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/haircut.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                Biamp
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
 
-                            <p class="">
-                                Biamp is a global leader in networked audio-visual solutions, trusted worldwide for its seamless integration, powerful DSP processing, and rock-solid reliability. At Acoustic-Arts, we use Biamp to bring scalable, intelligent, and smart control into boardrooms, auditoriums, houses of worship, and more.
-                            </p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('biamp') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/haircut.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                Powersoft
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;">
-                                </span>
-                            </h3>
-                            <p class="">Italian-engineered and globally trusted, Powersoft delivers class-leading
-                                amplifier technology with intelligent DSP control. Known for their energy efficiency,
-                                reliability, and compact design, Powersoft amps are the powerhouse behind concert venues,
-                                stadiums, and mission-critical installations.</p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('powersoft') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/beard-trim.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                Audix
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p>
-                                From corporate boardrooms to live music stages,
-                                Audix
-                                microphones are designed to capture
-                                sound with pristine clarity. Engineered in the USA, Audix products are trusted by
-                                professionals for their rugged build, feedback resistance, and pure voice reproduction.</p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('audix') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href="{{ route('audix') }}"><i
-                                class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/mans-shave.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                Void
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p>Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers are both sonic and visual masterpieces—perfect for premium clubs, lounges, lifestyle venues, and beyond.
-                            </p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('void') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href="{{ route('void') }}"><i
-                                class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative overflow-hidden   bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/hair-dyeing.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                Cloud
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p>Cloud is the trusted backbone of smart multi-zone audio. Whether it’s a hotel, restaurant, shopping mall, or public building, Cloud enables effortless, reliable control of background music, announcements, paging, and seamless audio.</p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('cloud') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href="{{ route('cloud') }}"><i
-                                class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/mustache.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                GoldenEar
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p>Known for their ribbon tweeters and ultra-transparent sound, GoldenEar speakers are revered
-                                in the home theatre and Hi-Fi world. With wide imaging and natural tonality, they transform
-                                rooms into immersive soundscapes.</p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('goldenear') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href="{{ route('goldenear') }}"><i
-                                class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/stacking.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3 position-relative d-inline-block">
-                                JL Audio
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p>When it comes to deep, controlled, and distortion-free bass, JL Audio stands unmatched. Their
-                                subwoofers are engineered for accuracy and impact—essential for both home theatres and
-                                high-performance audio systems.</p>
-                            <span class="text-uppercase text-primary d-flex justify-content-end"><a
-                                    href="{{ route('JL_Audio') }}">Read more..</a></span>
-                        </div>
-                        {{-- <a class="btn btn-square" href="{{ route('JL_Audio') }}"><i class="fa fa-plus text-primary"></i></a> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block bg-secondary text-primary py-1 px-4">Services</p>
-                <h1 class="text-uppercase">What We Provide – The Acoustc Arts Experience</h1>
+            <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                <h1 class="text-uppercase fw-bold text-dark">Powered by the Best – Experience Iconic Audio Brands</h1>
+                <p class="text-muted">
+                    At Acoustic-Arts, we partner only with industry-leading audio brands that guarantee performance,
+                    innovation, and reliability.
+                </p>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/haircut.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Biamp Premium Sound Systems</h3>
-                            <p>We design and install customized Biamp solutions that deliver crystal-clear audio in any
-                                environment — from conference rooms and classrooms to large-scale auditoriums and event
-                                venues.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+            <div class="row g-4 justify-content-center">
+                <!-- Biamp -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                Biamp
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                Biamp is a global leader in networked audio-visual solutions, trusted worldwide for its
+                                seamless integration,
+                                powerful DSP processing, and rock-solid reliability. At Acoustic-Arts, we use Biamp to bring
+                                scalable, intelligent,
+                                and smart control into boardrooms, auditoriums, houses of worship, and more.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('biamp') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/beard-trim.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Powersoft Amplifier Integration</h3>
-                            <p>We exclusively use Powersoft amplifiers for their unmatched power efficiency, clarity, and
-                                reliability—ensuring peak performance every time.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- Powersoft -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                Powersoft
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                Italian-engineered and globally trusted, Powersoft delivers class-leading amplifier
+                                technology with intelligent DSP control.
+                                Known for their energy efficiency, reliability, and compact design, Powersoft amps are the
+                                powerhouse behind
+                                concert venues, stadiums, and mission-critical installations.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('powersoft') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/mans-shave.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Acoustic Design & Consultation</h3>
-                            <p>Get expert advice on optimizing sound in any space—home theaters, auditoriums, or commercial
-                                venues.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- Audix -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                Audix
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                From corporate boardrooms to live music stages, Audix microphones are designed to capture
+                                sound with pristine clarity.
+                                Engineered in the USA, Audix products are trusted by professionals for their rugged build,
+                                feedback resistance,
+                                and pure voice reproduction.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('audix') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/hair-dyeing.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">On-Site Audio Management</h3>
-                            <p>From setup to live mixing, our professional team ensures every sound hits just right.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- Void -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                Void
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers
+                                are both sonic and
+                                visual masterpieces—perfect for premium clubs, lounges, lifestyle venues, and beyond.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('void') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/mustache.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">System Tuning & Calibration</h3>
-                            <p>We fine-tune every frequency to match your space’s acoustic profile perfectly.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- Cloud -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                Cloud
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                Cloud is the trusted backbone of smart multi-zone audio. Whether it’s a hotel, restaurant,
+                                shopping mall,
+                                or public building, Cloud enables effortless, reliable control of background music,
+                                announcements, paging,
+                                and seamless audio.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('cloud') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/stacking.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Premium Sound Systems</h3>
-                            <p>We design and install customized sound setups that deliver crystal-clear audio in any
-                                environment—from intimate spaces to large venues.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- GoldenEar -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                GoldenEar
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                Known for their ribbon tweeters and ultra-transparent sound, GoldenEar speakers are revered
+                                in the home theatre
+                                and Hi-Fi world. With wide imaging and natural tonality, they transform rooms into immersive
+                                soundscapes.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('goldenear') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
-                        {{-- <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/stacking.png" alt="">
-                        </div> --}}
-                        <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Stacking</h3>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam.</p>
-                            {{-- <span class="text-uppercase text-primary">From $15</span> --}}
+
+                <!-- JL Audio -->
+                <div class="col-lg-12 col-md-6">
+                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
+                        <div class="card-body p-4">
+                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
+                                JL Audio
+                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
+                            </h3>
+                            <p class="text-muted">
+                                When it comes to deep, controlled, and distortion-free bass, JL Audio stands unmatched.
+                                Their subwoofers are engineered
+                                for accuracy and impact—essential for both home theatres and high-performance audio systems.
+                            </p>
+                            <div class="text-end">
+                                <a href="{{ route('JL_Audio') }}" class="fw-semibold text-primary">Read more..</a>
+                            </div>
                         </div>
-                        {{-- <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a> --}}
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- Service End -->
+
+   <!-- Service Start -->
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block bg-secondary text-primary py-1 px-4">Services</p>
+            <h1 class="text-uppercase text-dark">What We Provide – The Acoustic Arts Experience</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Service 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">Biamp Premium Sound Systems</h3>
+                        <p>We design and install customized Biamp solutions that deliver crystal-clear audio in any
+                            environment — from conference rooms and classrooms to large-scale auditoriums and event
+                            venues.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">Powersoft Amplifier Integration</h3>
+                        <p>We exclusively use Powersoft amplifiers for their unmatched power efficiency, clarity, and
+                            reliability — ensuring peak performance every time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">Acoustic Design & Consultation</h3>
+                        <p>Get expert advice on optimizing sound in any space — home theaters, auditoriums, or commercial
+                            venues.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">On-Site Audio Management</h3>
+                        <p>From setup to live mixing, our professional team ensures every sound hits just right.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">System Tuning & Calibration</h3>
+                        <p>We fine-tune every frequency to match your space’s acoustic profile perfectly.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">Premium Sound Systems</h3>
+                        <p>We design and install customized sound setups that deliver crystal-clear audio in any
+                            environment — from intimate spaces to large venues.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 7 (Full Width) -->
+            {{-- <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
+                    <div class="ps-4">
+                        <h3 class="text-uppercase text-dark mb-3">Stacking</h3>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam.</p>
+                    </div>
+                </div>
+            </div> --}}
+
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+
 
     <!-- Price Start -->
     {{-- <div class="container-xxl py-5">
@@ -378,7 +361,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="bg-secondary h-100 d-flex flex-column justify-content-center p-5">
                         <p class="d-inline-flex bg-dark text-primary py-1 px-4 me-auto">Price & Plan</p>
-                        <h1 class="text-uppercase mb-4">Check Out Our Barber Services And Prices</h1>
+                        <h1 class="text-uppercase text-dark mb-4">Check Out Our Barber Services And Prices</h1>
                         <div>
                             <div class="d-flex justify-content-between border-bottom py-2">
                                 <h6 class="text-uppercase mb-0">Haircut</h6>
@@ -454,57 +437,93 @@
                 </div>
         </section>
     </div> --}}
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4 justify-content-around">
-                <h1 class="text-uppercase text-center">Home Cinema</h1>
-                {{-- <h3 class="text-uppercase mb-3 text-center"></h3> --}}
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s"
-                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                    <div
-                        class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 w-100 ps-0 border border">
-                        {{-- <img src="{{ asset('assets/img/conferencing.png') }}" alt="" class=""> --}}
-                        <img src="{{ asset('/assets/img/home-cinema.jpg') }}" alt="home cinema" class="w-100">
-                    </div>
+<!-- Home Cinema Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="text-uppercase text-dark mt-3">Home Cinema</h1>
+        </div>
+        <div class="row g-4 justify-content-between">
+            <!-- Image Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="position-relative rounded-4 overflow-hidden shadow-lg h-100">
+                    <img src="{{ asset('/assets/img/home-cinema.jpg') }}" alt="home cinema"
+                         class="w-100 h-100 object-fit-cover">
+                    <!-- Subtle overlay -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100"
+                         style="background: rgba(0,0,0,0.2);"></div>
                 </div>
-                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
-                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            </div>
 
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border">
-
-                        <div class="ps-4">
-                            <h1><b>Public/Private Theater by Acoustic Arts Pvt. Ltd.</b></h1>
-                            <p>
-                                Experience the magic of cinema—right in your home. We design and build luxurious private
-                                theaters that rival the best commercial cinemas. From immersive Dolby Atmos audio to
-                                stunning 4K/8K visuals, intelligent lighting, and acoustic perfection—every detail is
-                                crafted to impress.
-
-                                Whether it's a cozy media den or a grand entertainment room, our solutions are bespoke,
-                                refined, and future-ready. Acoustic Arts delivers cinema that doesn’t just entertain—it
-                                transports.
-
-                            </p>
-                            <a class="button-1" href="{{ route('contact') }}">
-                                Contact Us
-                            </a>
-                        </div>
-
-                    </div>
-
+            <!-- Content Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-white rounded-4 shadow-lg p-5 h-100 d-flex flex-column justify-content-center">
+                    <h2 class="fw-bold mb-4" style="color: #1a1a1a;">Public/Private Theater by Acoustic Arts Pvt. Ltd.</h2>
+                    <p class="mb-4 text-muted" style="line-height:1.7;">
+                        Experience the magic of cinema—right in your home. We design and build luxurious private
+                        theaters that rival the best commercial cinemas. From immersive Dolby Atmos audio to
+                        stunning 4K/8K visuals, intelligent lighting, and acoustic perfection—every detail is crafted to impress.
+                    </p>
+                    <p class="mb-4 text-muted" style="line-height:1.7;">
+                        Whether it's a cozy media den or a grand entertainment room, our solutions are bespoke,
+                        refined, and future-ready. Acoustic Arts delivers cinema that doesn’t just entertain—it
+                        transports.
+                    </p>
+                    <a href="{{ route('contact') }}"
+                       class="btn btn-primary btn-sm align-self-start"
+                       style="transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                       onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.3)';"
+                       onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 10px rgba(0,0,0,0.2)';">
+                        Contact Us
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- home cinema End -->
-    <div class="container-xxl py-5">
+</div>
+<!-- Home Cinema End -->
+<!-- Home Cinema Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+             <h1 class="text-uppercase text-dark mt-3">Crystal-Clear Audio for 15-Seat Meeting Rooms</h1>
+        </div>
+        <div class="row g-4 justify-content-between">
+            <!-- Image Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="position-relative rounded-4 overflow-hidden shadow-lg h-100">
+                    <img src="{{ asset('assets/img/parel.png') }}" alt="" class="w-100">
+                    <!-- Subtle overlay -->
+                    {{-- <div class="position-absolute top-0 start-0 w-100 h-100"
+                         style="background: rgba(0,0,0,0.2);"></div> --}}
+                </div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-white rounded-4 shadow-lg p-5 h-100 d-flex flex-column justify-content-center">
+                    <h2 class="fw-bold mb-4" style="color: #1a1a1a;">Precision Sound, Every Voice, Every Word</h2>
+                    <p class="mb-4 text-muted" style="line-height:1.7;">
+                       Designing audio for a 15-seat meeting room is about more than just coverage — it’s about precision, clarity, and seamless communication. Biamp’s advanced DSP platforms, smart beamtracking microphones, and intuitive control systems ensure that every voice is heard clearly, whether participants are speaking softly, moving around, or joining remotely. Experience consistent, high-fidelity sound that makes every meeting productive and immersive.
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Home Cinema End -->
+    {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4 justify-content-around">
+                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          
+        </div>
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s"
                     style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div
                         class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 w-100 ps-0 border border">
-                        <img src="{{ asset('assets/img/conferencing.png') }}" alt="" class="w-100">
+                        <img src="{{ asset('assets/img/parel.png') }}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
@@ -512,22 +531,15 @@
                     <div
                         class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border border">
                         <div class="ps-4">
-                            <h3 class="text-uppercase mb-3">Meeting rooms of all 15 Seats &amp; Calibration</h3>
-                            <p>Designing audio for a 15-seat meeting room demands more than just basic sound coverage — it
-                                requires exceptional clarity, intelligent design, and acoustic precision. With varied
-                                seating arrangements and increased participant interaction, it’s crucial that every voice is
-                                captured accurately and every word is delivered without distortion. Biamp’s industry-leading
-                                DSP platforms, paired with advanced beamtracking microphones and intuitive control
-                                interfaces, provide a seamless, immersive audio experience. Whether participants are
-                                speaking softly or moving around the table, in-person or joining remotely, Biamp ensures
-                                consistent, high-fidelity sound across the entire space.
+                            <h3 class="text-uppercase text-white mb-3">Precision Sound, Every Voice, Every Word</h3>
+                            <p>Designing audio for a 15-seat meeting room is about more than just coverage — it’s about precision, clarity, and seamless communication. Biamp’s advanced DSP platforms, smart beamtracking microphones, and intuitive control systems ensure that every voice is heard clearly, whether participants are speaking softly, moving around, or joining remotely. Experience consistent, high-fidelity sound that makes every meeting productive and immersive.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- Working Hours Start -->
     <div class="container-xxl py-5">
@@ -537,7 +549,8 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-secondary h-100 d-flex flex-column justify-content-center p-5 border">
                         <p class="d-inline-flex bg-dark text-primary py-1 px-4 me-auto">Working Hours</p>
-                        {{-- <h1 class="text-uppercase mb-4 fs-5">Acoustic Arts Pvt. Ltd. is Open to Serve You</h1> --}}
+                        {{-- <h1 class="text-uppercase text-dark mb-4 fs-5">Acoustic Arts Pvt. Ltd. is Open to Serve You
+                        </h1> --}}
                         <div>
                             <div class="d-flex justify-content-between border-bottom py-1">
                                 <h6 class="text-uppercase mb-0">Monday</h6>
@@ -585,7 +598,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block bg-secondary text-primary py-1 px-4">Testimonial</p>
-                <h1 class="text-uppercase">What Our Clients Say!</h1>
+                <h1 class="text-uppercase text-dark">What Our Clients Say!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center"

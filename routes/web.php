@@ -5,11 +5,12 @@ use App\Http\Controllers\frontend\UserController;
 use App\Http\Controllers\Innerpage\InnerController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
+// Route::get('/acoustic-arts', function () {
+//     return view('frontend.index');
+// });
+
 /*header start route*/
-Route::get('/', [UserController::class, 'index'])->name('index');
+Route::get('/acoustic-arts',[UserController::class, 'index'])->name('index');
 
 Route::get('/about', [UserController::class, 'about'])->name('about');
 

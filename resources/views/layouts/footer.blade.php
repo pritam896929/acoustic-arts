@@ -20,7 +20,7 @@
                 <h4 class="text-uppercase mb-4">Quick Links</h4>
                 <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
                 <a class="btn btn-link" href="{{ route('service') }}">Services</a>
-                <a class="btn btn-link" href="{{ route('products') }}">Products</a>
+                {{-- <a class="btn btn-link" href="{{ route('products') }}">Products</a> --}}
                 <a class="btn btn-link" href="{{ route('project') }}">Projects</a>
                 {{-- <a class="btn btn-link" href="">Support</a> --}}
                 <a class="btn btn-link" href="{{ route('contact') }}">Contact Us</a>
