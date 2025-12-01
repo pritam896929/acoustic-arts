@@ -68,7 +68,7 @@
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-2">
                         <div class="ps-0">
-                            <img class="img-fluid" src="{{ asset('assets/img/djmixer.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/img/Project Management.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>

@@ -27,8 +27,8 @@
                         style="height: 90vh; object-fit: cover;" alt="Slide 1">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
                         style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
-                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Pure Sound. Real Emotion.</h1>
-                        <p class="text-white-50 fs-5 mb-4 ps-5">Welcome to Acoustic Arts — where every beat, tone, and
+                        <h1 class="display-3 fw-bold danger mb-3 ps-5">Pure Sound. Real Emotion.</h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5">Welcome to Acoustic Arts — where every beat, tone, and
                             silence has meaning.</p>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
                         style="height: 90vh; object-fit: cover;" alt="Slide 2">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
                         style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
-                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Crafting Soundscapes</h1>
-                        <p class="text-white-50 fs-5 mb-4 ps-5">From raw audio to refined brilliance — experience
+                        <h1 class="display-3 fw-bold danger mb-3 ps-5">Crafting Soundscapes</h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5">From raw audio to refined brilliance — experience
                             studio-grade
                             production.</p>
                     </div>
@@ -50,8 +50,8 @@
                         style="height: 90vh; object-fit: cover;" alt="Slide 3">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
                         style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
-                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Where Sound Becomes Art</h1>
-                        <p class="text-white-50 fs-5 mb-4 ps-5">At Acoustic Arts, sound isn't heard — it's felt.</p>
+                        <h1 class="display-3 fw-bold danger mb-3 ps-5">Where Sound Becomes Art</h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5">At Acoustic Arts, sound isn't heard — it's felt.</p>
                         {{-- <a class="btn btn-light btn-lg shadow" href="#contact">Get in Touch</a> --}}
                     </div>
                 </div>
@@ -95,172 +95,126 @@
     <!-- Modern Acoustic Arts Carousel End -->
 
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-                <h1 class="text-uppercase fw-bold text-dark">Powered by the Best – Experience Iconic Audio Brands</h1>
-                <p class="text-muted">
-                    At Acoustic-Arts, we partner only with industry-leading audio brands that guarantee performance,
-                    innovation, and reliability.
-                </p>
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h1 class="text-uppercase fw-bold text-dark">Powered by the Best – Experience Iconic Audio Brands</h1>
+            <p class="text-muted fs-5">
+                At Acoustic-Arts, we partner only with industry-leading audio brands that guarantee performance,
+                innovation, and reliability.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Biamp -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Biamp</span>
+                        </div>
+                        <p class="text-muted flex-grow-1">
+                            Biamp is a global leader in networked audio-visual solutions, trusted worldwide for its
+                            seamless integration, powerful DSP processing, and rock-solid reliability. At Acoustic-Arts, we use Biamp to bring
+                            scalable, intelligent, and smart control into boardrooms, auditoriums, houses of worship, and more.
+                        </p>
+                        <a href="{{ route('biamp') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <!-- Biamp -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                Biamp
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                Biamp is a global leader in networked audio-visual solutions, trusted worldwide for its
-                                seamless integration,
-                                powerful DSP processing, and rock-solid reliability. At Acoustic-Arts, we use Biamp to bring
-                                scalable, intelligent,
-                                and smart control into boardrooms, auditoriums, houses of worship, and more.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('biamp') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            <!-- Powersoft -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Powersoft</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            Italian-engineered and globally trusted, Powersoft delivers class-leading amplifier
+                            technology with intelligent DSP control. Known for their energy efficiency, reliability, and compact design, Powersoft amps power concert venues, stadiums, and mission-critical installations.
+                        </p>
+                        <a href="{{ route('powersoft') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Powersoft -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                Powersoft
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                Italian-engineered and globally trusted, Powersoft delivers class-leading amplifier
-                                technology with intelligent DSP control.
-                                Known for their energy efficiency, reliability, and compact design, Powersoft amps are the
-                                powerhouse behind
-                                concert venues, stadiums, and mission-critical installations.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('powersoft') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            <!-- Audix -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Audix</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            From corporate boardrooms to live music stages, Audix microphones are designed to capture sound with pristine clarity. Engineered in the USA, Audix products are trusted by professionals for rugged build, feedback resistance, and pure voice reproduction.
+                        </p>
+                        <a href="{{ route('audix') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Audix -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                Audix
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                From corporate boardrooms to live music stages, Audix microphones are designed to capture
-                                sound with pristine clarity.
-                                Engineered in the USA, Audix products are trusted by professionals for their rugged build,
-                                feedback resistance,
-                                and pure voice reproduction.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('audix') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            <!-- Void -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary text-white bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Void</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers are both sonic and visual masterpieces—perfect for premium clubs, lounges, lifestyle venues, and beyond.
+                        </p>
+                        <a href="{{ route('void') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Void -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                Void
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers
-                                are both sonic and
-                                visual masterpieces—perfect for premium clubs, lounges, lifestyle venues, and beyond.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('void') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            <!-- Cloud -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary text-white bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Cloud</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            Cloud is the trusted backbone of smart multi-zone audio. Whether it’s a hotel, restaurant, shopping mall, or public building, Cloud enables effortless, reliable control of background music, announcements, paging, and seamless audio.
+                        </p>
+                        <a href="{{ route('cloud') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
-
-                <!-- Cloud -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                Cloud
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                Cloud is the trusted backbone of smart multi-zone audio. Whether it’s a hotel, restaurant,
-                                shopping mall,
-                                or public building, Cloud enables effortless, reliable control of background music,
-                                announcements, paging,
-                                and seamless audio.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('cloud') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            </div>
+            <!-- GoldenEar -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">GoldenEar</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            Known for their ribbon tweeters and ultra-transparent sound, GoldenEar speakers are revered in the home theatre and Hi-Fi world. Wide imaging and natural tonality transform rooms into immersive soundscapes.
+                        </p>
+                        <a href="{{ route('goldenear') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- GoldenEar -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                GoldenEar
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                Known for their ribbon tweeters and ultra-transparent sound, GoldenEar speakers are revered
-                                in the home theatre
-                                and Hi-Fi world. With wide imaging and natural tonality, they transform rooms into immersive
-                                soundscapes.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('goldenear') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
+            <!-- JL Audio -->
+            <div class="col-lg-12 col-md-6">
+                <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                    <div class="card-body p-5 d-flex flex-column">
+                        <div class="mb-3">
+                            <span class="badge bg-primary bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">JL Audio</span>
                         </div>
+                        <p class="text-muted flex-grow-1">
+                            When it comes to deep, controlled, and distortion-free bass, JL Audio stands unmatched. Their subwoofers are engineered for accuracy and impact—essential for both home theatres and high-performance audio systems.
+                        </p>
+                        <a href="{{ route('JL_Audio') }}" class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                     </div>
                 </div>
-
-                <!-- JL Audio -->
-                <div class="col-lg-12 col-md-6">
-                    <div class="card h-100 shadow-lg border-0 rounded-4 service-card">
-                        <div class="card-body p-4">
-                            <h3 class="fw-bold text-dark text-uppercase mb-3 position-relative">
-                                JL Audio
-                                <span class="d-block bg-danger mt-2" style="height: 3px; width: 100%;"></span>
-                            </h3>
-                            <p class="text-muted">
-                                When it comes to deep, controlled, and distortion-free bass, JL Audio stands unmatched.
-                                Their subwoofers are engineered
-                                for accuracy and impact—essential for both home theatres and high-performance audio systems.
-                            </p>
-                            <div class="text-end">
-                                <a href="{{ route('JL_Audio') }}" class="fw-semibold text-primary">Read more..</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-    <!-- Service End -->
-
+</div>
    <!-- Service Start -->
 
 <!-- Service Start -->

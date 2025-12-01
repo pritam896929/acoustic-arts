@@ -10,7 +10,7 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
     data-wow-delay="0.1s">
-    <a href="{{ url('/') }}" class="navbar-brand ms-4 ms-lg-0">
+    <a href="{{ url('/acoustic-arts') }}" class="navbar-brand ms-4 ms-lg-0">
         <img src="{{ asset('assets/img/acoustic.png') }}" alt="" class="w-75 width">
         {{-- <h1 class="mb-0 text-primary text-uppercase"><i class="fa-solid fa-speaker me-3"></i>
             Acoustic arts</h1> --}}

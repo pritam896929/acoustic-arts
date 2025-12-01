@@ -13,7 +13,9 @@ body{
     background: white !important;
     
 }
-
+h1{
+    color: #000000 !important;
+}
 
 .back-to-top {
     position: fixed;

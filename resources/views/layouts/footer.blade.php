@@ -6,7 +6,8 @@
 
             <div class="col-lg-4 col-md-6 mt-md-4">
                 {{-- <h4 class="text-uppercase mb-4">social links</h4> --}}
-                <img src="http://127.0.0.1:8000/assets/img/acoustic.png" alt="" class="w-100">
+                <a href="/acoustic-arts"><img src="http://127.0.0.1:8000/assets/img/acoustic.png" alt="" class="w-100">
+                </a>
                 <p class="p-4 pt-0">For over 25 years, Acoustic-Arts has been at the forefront of professional audio
                     integration across India.</p>
                 {{-- <div class="position-relative mb-4">
@@ -17,7 +18,7 @@
 
             </div>
             <div class="col-lg-4 col-md-6">
-                <h4 class="text-uppercase mb-4">Quick Links</h4>
+                <h4 class="text-uppercase mb-4">Our Links</h4>
                 <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
                 <a class="btn btn-link" href="{{ route('service') }}">Services</a>
                 {{-- <a class="btn btn-link" href="{{ route('products') }}">Products</a> --}}

@@ -21,9 +21,9 @@
         <div class="container">
             <div class="row g-20">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-secondary p-4 border">
+                    <div class="bg-white p-5" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-radius: 7px; border: 1px solid #eb1616;">
                         <p class="d-inline-block bg-dark text-primary py-1 px-4">Contact Us</p>
-                        <h1 class="text-uppercase mb-4 fs-3">Have Any Query? Please Contact Us!</h1>
+                        <h1 class="text-uppercase text-danger mb-4 fs-3">Have Any Query? Please Contact Us!</h1>
                         <form action="{{ route('sendTestEmail') }}" method="post">
                             @csrf
                             <div class="row g-3">

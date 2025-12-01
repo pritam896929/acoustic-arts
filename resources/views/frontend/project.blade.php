@@ -18,11 +18,10 @@
     <!-- Page Header End -->
     <!-- Carousel Start -->
     <div class="container my-5">
-
         <div
-            class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0 border rounded-3 shadow">
+            class="service-item position-relative overflow-hidden bg-white shadow-lg d-flex h-100 p-5 ps-0 rounded-3 ">
             <div class="ps-4">
-                <h1 class="fw-bold">The Art of Musical Expression</h1>
+                <h1 class="fw-bold" style="color: #eb1616 !important;">The Art of Musical Expression</h1>
                 <p class="mt-3">
                     Since 1999, Acoustic-Arts Pvt. Ltd. has been creating powerful audio experiences that move people.
                     From sacred rituals to modern performance spaces, sound has always connected deeply with emotion—and
@@ -41,13 +40,13 @@
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/ATTARI.PNG') }}"
                                 class="d-block w-100 rounded shadow project-img img-click" alt="Project 1"
                                 data-bs-toggle="modal" data-bs-target="#imageModal"
                                 data-img="{{ asset('/assets/img/ATTARI.PNG') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Attari</h3>
                                 <p>
@@ -55,19 +54,19 @@
                                     vel similique cum assumenda aliquam placeat necessitatibus.
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/Cirrus-New-Delhi.png') }}"
                                 class="d-block w-100 rounded shadow project-img img-click" alt="Project 2"
                                 data-bs-toggle="modal" data-bs-target="#imageModal"
                                 data-img="{{ asset('/assets/img/Cirrus-New-Delhi.png') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Cirrus9, The Oberoi, New Delhi</h3>
                                 <p>
@@ -75,19 +74,19 @@
                                     exercitationem nam ea nesciunt aut similique recusandae temporibus?
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/iit.jpg') }}"
                                 class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
                                 data-bs-toggle="modal" data-bs-target="#imageModal"
                                 data-img="{{ asset('/assets/img/iit.jpg') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>IIT, Roorkee</h3>
                                 <p>
@@ -96,19 +95,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 4 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/Isckon.webp') }}"
                                 class="d-block w-100 rounded shadow project-img img-click" alt="Project 3"
                                 data-bs-toggle="modal" data-bs-target="#imageModal"
                                 data-img="{{ asset('/assets/img/Isckon.webp') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Isckon, New Delhi</h3>
                                 <p>
@@ -117,19 +116,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 5 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/G2.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G2.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Fig, New Delhi</h3>
                                 <p>
@@ -138,19 +137,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 6 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/G1.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G1.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Boya, New Delhi</h3>
                                 <p>
@@ -159,19 +158,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 7 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/G6.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G6.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>F Bar, Dehradun</h3>
                                 <p>
@@ -180,19 +179,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 8 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/stadium.jpg
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/stadium.jpg
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Guwahati Stadium</h3>
                                 <p>
@@ -201,19 +200,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 9 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/prem-mandir.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/prem-mandir.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Prem Mandir, Vrindavan</h3>
                                 <p>
@@ -222,19 +221,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 10 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/G7.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G7.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Anjeer, Gurugram</h3>
                                 <p>
@@ -243,19 +242,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 11 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/G8.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/G8.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Rashtrapati Bhavan, New Delhi</h3>
                                 <p>
@@ -264,19 +263,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 12 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/playboy-club.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/playboy-club.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3>Playboy Club, New Delhi</h3>
                                 <p>
@@ -285,19 +284,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 13 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/Vidyalankar.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Vidyalankar.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3> Vidyalankar Institute Auditorium, Mumbai</h3>
                                 <p>
@@ -306,19 +305,19 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <!-- Slide 14 -->
                 <div class="carousel-item">
                     <div class="row g-4 d-flex align-items-stretch">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <img src="{{ asset('/assets/img/Hybrid.webp
                                             ') }}" class="d-block w-100 rounded shadow project-img img-click"
                                 alt="Project 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="{{ asset('/assets/img/Hybrid.webp
                                             ') }}">
                         </div>
-                        <div class="col-md-6 d-flex">
+                        {{-- <div class="col-md-12 d-flex">
                             <div class="p-4 bg-secondary border rounded shadow project-box flex-fill">
                                 <h3> Hybrid, New Delhi</h3>
                                 <p>
@@ -327,7 +326,7 @@
                                     Illum, voluptates consectetur!
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
