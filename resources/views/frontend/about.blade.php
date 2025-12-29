@@ -94,7 +94,7 @@
                         <div class="bg-white rounded-4 shadow-lg p-5 h-100">
                             <h5 class="text-uppercase text-dark">What We Do</h5>
                             <span class="text-light">
-                                We serve over 150 system integrators and AV specialists across India, offering advanced
+                                We serve over 200 system integrators and AV specialists across India, offering advanced
                                 audio solutions that are tailored, integrated, and future-ready. With over 1500 successful
                                 projects, our team handles everything from concept to commissioning — including acoustic
                                 design, project management, turnkey execution, and long-term maintenance.

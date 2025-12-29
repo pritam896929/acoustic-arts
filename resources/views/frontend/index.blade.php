@@ -11,6 +11,7 @@
         .service-card {
             transition: all 0.3s ease-in-out;
         }
+
         .service-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
@@ -21,11 +22,11 @@
         <div id="acousticCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Slide 1 -->
-                <div class="carousel-item active">
-                    <img src="{{ asset('assets/img/s1.png') }}" class="d-block w-100" style="height: 90vh; object-fit: cover;"
-                        alt="Slide 1">
+                <div class="carousel-item">
+                    <img src="{{ asset('assets/img/void.jpg') }}" class="d-block w-100"
+                        style="height: 100vh; object-fit: cover;" alt="Slide 1">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
-                        style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
+                        style="background: rgba(0,0,0,0.35);">
                         <h1 class="display-3 fw-bold text-white mb-3 ps-5">Pure Sound. Real Emotion.</h1>
                         <p class="text-white-100 fs-5 mb-4 ps-5">Welcome to Acoustic Arts — where every beat, tone, and
                             silence has meaning.</p>
@@ -33,24 +34,35 @@
                 </div>
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/microphone-mic.png') }}" class="d-block w-100"
-                        style="height: 90vh; object-fit: cover;" alt="Slide 2">
+                    <img src="{{ asset('assets/img/Arclite-15B.jpg') }}" class="d-block w-100"
+                        style="height: 100vh; object-fit: cover;" alt="Slide 2">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
-                        style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
-                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Crafting Soundscapes</h1>
-                        <p class="text-white-100 fs-5 mb-4 ps-5">From raw audio to refined brilliance — experience
-                            studio-grade
-                            production.</p>
+                        style="background: rgba(0,0,0,0.35);">
+                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Crafting Immersive Soundscapes
+                        </h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5 text-start">Studio-grade clarity with VOID Acoustics &
+                            Arcline bass.</p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item active">
+                    <img src="{{ asset('assets/img/S3.webp') }}" class="d-block w-100"
+                        style="height: 100vh; object-fit: cover;" alt="Slide 3">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
+                        style="background: rgba(0,0,0,0.35);">
+                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Where Sound Becomes Art</h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5">At Acoustic Arts, sound isn't heard — it's felt.</p>
+                        {{-- <a class="btn btn-light btn-lg shadow" href="#contact">Get in Touch</a> --}}
                     </div>
                 </div>
                 <!-- Slide 3 -->
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/S3.webp') }}" class="d-block w-100"
-                        style="height: 90vh; object-fit: cover;" alt="Slide 3">
+                    <img src="{{ asset('assets/img/goldenear-banner.jpg') }}" class="d-block w-100"
+                        style="height: 100vh; object-fit: cover;" alt="Slide 3">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
-                        style="background: rgba(0,0,0,0.35); backdrop-filter: blur(2px);">
-                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Where Sound Becomes Art</h1>
-                        <p class="text-white-100 fs-5 mb-4 ps-5">At Acoustic Arts, sound isn't heard — it's felt.</p>
+                        style="background: rgba(0,0,0,0.35);">
+                        <h1 class="display-3 fw-bold text-white mb-3 ps-5">Pure Sound. Timeless Design.</h1>
+                        <p class="text-white-100 fs-5 mb-4 ps-5">GoldenEar performance for refined living.</p>
                         {{-- <a class="btn btn-light btn-lg shadow" href="#contact">Get in Touch</a> --}}
                     </div>
                 </div>
@@ -155,6 +167,24 @@
                     </div>
                 </div>
 
+                <!-- Void -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card rounded-4 border-0 shadow-lg h-100 transition">
+                        <div class="card-body p-5 d-flex flex-column">
+                            <div class="mb-3">
+                                <span
+                                    class="badge bg-primary text-white bg-dark px-3 py-2 fs-6 text-uppercase border border-danger">Void</span>
+                            </div>
+                            <p class="text-muted flex-grow-1">
+                                Void is where art truly meets sound. Their uniquely designed, high-performance loudspeakers
+                                are both sonic and visual masterpieces—perfect for premium clubs, lounges, lifestyle venues,
+                                and beyond.
+                            </p>
+                            <a href="{{ route('void') }}"
+                                class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Audix -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card rounded-4 border-0 shadow-lg h-100 transition">
@@ -175,7 +205,7 @@
                 </div>
 
                 <!-- Void -->
-                <div class="col-lg-4 col-md-6">
+                {{-- <div class="col-lg-4 col-md-6">
                     <div class="card rounded-4 border-0 shadow-lg h-100 transition">
                         <div class="card-body p-5 d-flex flex-column">
                             <div class="mb-3">
@@ -191,7 +221,7 @@
                                 class="mt-3 ms-auto fw-semibold text-primary text-decoration-none">Read more..</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Cloud -->
                 <div class="col-lg-4 col-md-6">
@@ -263,30 +293,28 @@
             </div>
             <div class="row g-4">
                 <!-- Service 1 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
-                            <h3 class="text-uppercase text-dark mb-3">Biamp Premium Sound Systems</h3>
-                            <p>We design and Offer customized Biamp solutions that deliver crystal-clear audio in any
-                                environment — from conference rooms and classrooms to large-scale auditoriums and event
-                                venues.</p>
+                            <h3 class="text-uppercase text-dark mb-3">Cutting Edge Products</h3>
+                            <p> We offer a selection of cutting edge products from the most respected brands worldwide</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Service 2 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                {{-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
-                            <h3 class="text-uppercase text-dark mb-3">Powersoft Amplifier Integration</h3>
+                            <h3 class="text-uppercase text-dark mb-3">Powersoft Amplifiers </h3>
                             <p>We recommended use Powersoft amplifiers for their unmatched power efficiency, clarity, and
                                 reliability — ensuring peak performance every time.</p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Service 3 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
                             <h3 class="text-uppercase text-dark mb-3">Acoustic Design & Consultation</h3>
@@ -298,7 +326,7 @@
                 </div>
 
                 <!-- Service 4 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
                             <h3 class="text-uppercase text-dark mb-3">On-Site Audio Management</h3>
@@ -308,7 +336,7 @@
                 </div>
 
                 <!-- Service 5 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
                             <h3 class="text-uppercase text-dark mb-3">System Tuning & Calibration</h3>
@@ -318,16 +346,14 @@
                 </div>
 
                 <!-- Service 6 -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
                         <div class="ps-4">
-                            <h3 class="text-uppercase text-dark mb-3">Premium Sound Systems</h3>
-                            <p>We design and install customized sound setups that deliver crystal-clear audio in any
-                                environment — from intimate spaces to large venues.</p>
+                            <h3 class="text-uppercase text-dark mb-3">Service & AMC</h3>
+                            <p>We also have an in house.</p>
                         </div>
                     </div>
                 </div>
-
                 <!-- Service 7 (Full Width) -->
                 {{-- <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-card h-100 shadow-lg border-0 rounded-4 p-5 ps-0 d-flex">
@@ -337,15 +363,10 @@
                     </div>
                 </div>
             </div> --}}
-
             </div>
         </div>
     </div>
     <!-- Service End -->
-
-
-
-
     <!-- Price Start -->
     {{-- <div class="container-xxl py-5">
         <div class="container">
@@ -475,7 +496,7 @@
         </div>
     </div>
     <!-- Home Cinema End -->
-    <!-- Home Cinema Start -->
+    <!-- Home cristyal Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -509,7 +530,7 @@
             </div>
         </div>
     </div>
-    <!-- Home Cinema End -->
+    <!-- Home cristyal End -->
     {{-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4 justify-content-around">
@@ -606,7 +627,6 @@
                         sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo
                         sea clita.</span>
                 </div>
-
                 <div class="testimonial-item text-center"
                     data-dot="<img class='img-fluid' src='{{ asset('assets/img/t2.jpeg') }}' alt=''>">
                     <h4 class="text-uppercase">Client Name</h4>
