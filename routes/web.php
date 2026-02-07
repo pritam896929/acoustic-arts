@@ -28,6 +28,7 @@ Route::get('JL-audio', [InnerController::class, 'JL_Audio'])->name('JL_Audio');
 Route::get('/distribution', [InnerController::class, 'distribution'])->name('distribution');
 Route::get('/project-management', [InnerController::class, 'projectManagement'])->name('project.management');
 Route::get('/ease-simulation', [InnerController::class, 'ease_simulation'])->name('ease.simulation');
+Route::get('/service-center', [InnerController::class, 'service_center'])->name('service.center');
 //EmailMaller//
 Route::get('/send-test-email', [EmailController::class, 'sendTestEmail'])->name('sendtestemail');
 Route::post('/send-test-email', [EmailController::class, 'sendTestEmail'])->name('sendTestEmail');

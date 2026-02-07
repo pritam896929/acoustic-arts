@@ -41,6 +41,9 @@ class InnerController extends Controller
     {
         return view('frontend.services-inner-page.ease-simulation');
     }
+    public function service_center(){
+        return view('frontend.services-inner-page.service-center');
+    }
     public function goldenear()
     {
         return view('frontend.brand-inner-page.goldenear');

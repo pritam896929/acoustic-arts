@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 wow fadeInUp border p-1" style="background: #191C24" data-wow-delay="0.1s">
                     <div class="team-item h-100 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('assets/img/V2.webp') }}" alt="Modern boardroom with Biamp system"
+                        <img src="{{ asset('assets/img/V2.jpeg') }}" alt="Modern boardroom with Biamp system"
                             class="w-100 border border" style="box-shadow: 2px 2px 10px">
                     </div>
                 </div>
@@ -107,7 +107,7 @@
             <div class="row g-4">
                 <div class="col-lg-5 col-md-6 wow fadeInUp border p-1" style="background: #191C24" data-wow-delay="0.1s">
                     <div class="team-item h-100 d-flex align-items-center justify-content-center">
-                        <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/V1.webp') }}"
+                        <img class="img-fluid w-100 h-100" src="{{ asset('assets/img/V1.jpeg') }}"
                             alt="Biamp Trusted Worldwide" style="box-shadow: 2px 2px 10px">
                     </div>
                 </div>

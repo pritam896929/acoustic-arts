@@ -99,6 +99,38 @@
                                 class="fa fa-plus text-primary"></i></a>
                     </div>
                 </div>
+                <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative overflow-hidden bg-white shadow-lg d-flex h-100 p-4">
+                        <div class="ps-0">
+                            <h3 class="text-uppercase mb-3 text-dark">Professional Service Centre & Repair Workshop</h3>
+                            <p>Acoustic Arts Pvt. Ltd. operates a professional service centre and technical workshop for the
+                                repair, maintenance, and exchange of high-end audio equipment supplied by us.
+                            </p>
+                            <p>
+                                We service only genuine products purchased from Acoustic Arts, ensuring precise diagnostics,
+                                original components, and high-quality workmanship. Our expertise covers leading brands
+                                including Powersoft, Biamp, Void Acoustics, GoldenEar, JL Audio, Audix, and Cloud
+                                Electronics.</p>
+                            <p>
+                                With 25+ years of experience, we are trusted for reliable repairs, honest technical support,
+                                and thoroughly tested results.
+                            </p>
+                            <span class="text-uppercase text-primary"><a href="{{ route('service.center') }}">Read
+                                    more.</a> </span>
+                        </div>
+
+                        <a class="btn btn-square" href="{{ route('service.center') }}"><i
+                                class="fa fa-plus text-primary"></i></a>
+                    </div>
+                </div>
+                {{-- <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-2">
+                        <div class="ps-0">
+                            <img class="img-fluid h-100" src="{{ asset('assets/img/mechanic.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div> --}}
+
                 {{-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
                         <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center"

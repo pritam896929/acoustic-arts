@@ -34,7 +34,7 @@
                 </div>
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/img/Arclite-15B.jpg') }}" class="d-block w-100"
+                    <img src="{{ asset('assets/img/V2.jpeg') }}" class="d-block w-100"
                         style="height: 100vh; object-fit: cover;" alt="Slide 2">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 px-5"
                         style="background: rgba(0,0,0,0.35);">
@@ -82,7 +82,7 @@
     <div class="logo-marquee">
         <div class="logo-track">
             <div class="logo-set">
-                <img src="{{ asset('assets/img/logo/powersoft.png') }}" alt="powersoft">
+                <img src="{{ asset('assets/img/logo/powersoft.png') }} " alt="powersoft">
                 <img src="{{ asset('assets/img/logo/jlaudio.png') }}" alt="jlaudio">
                 <img src="{{ asset('assets/img/logo/biamp.png') }}" alt="biamp">
                 <img src="{{ asset('assets/img/logo/goldenear.png') }}" alt="goldenear">
