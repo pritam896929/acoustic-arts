@@ -46,6 +46,10 @@ class UserController extends Controller
     {
         return view('frontend.project');
     }
+    public function awards(){
+      return view('frontend.awards');
+    }
+        
     public function contact()
     {
         return view('frontend.contact');

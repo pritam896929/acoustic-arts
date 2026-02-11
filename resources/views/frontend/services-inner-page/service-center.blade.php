@@ -10,7 +10,7 @@
     </div>
     <!-- Page Header End -->
     <!-- Intro Section -->
-     {{-- <div class="container py-5">
+    {{-- <div class="container py-5">
         <div class="row g-4">
             <div class="col-md-12 d-flex">
                 <div class="shadow-lg p-4 w-100 d-flex flex-column justify-content-start wow fadeInUp" data-wow-delay="0.3s">
@@ -126,103 +126,101 @@
     {{-- </div>
     </div> --}}
     <!-- // end -->
-<section class="we-offer-area text-center bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="site-heading text-center">
-                    <h2 class="text-dark">What We <span>Offer</span></h2>
-                    <h4 class="text-dark">Professional Audio Solutions & Services</h4>
+    <section class="we-offer-area text-center bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2 class="text-dark">What We <span>Offer</span></h2>
+                        <h4 class="text-dark">Professional Audio Solutions & Services</h4>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row our-offer-items less-carousel">
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-drafting-compass"></i>
+
+                        <h4 class="text-dark">Audio System Design</h4>
+                        <p>
+                            Customized professional audio system design for auditoriums,
+                            cinemas, clubs, conference rooms, and large venues.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-project-diagram"></i>
+                        <h4 class="text-dark">System Integration</h4>
+                        <p>
+                            Complete integration of premium audio equipment including
+                            amplifiers, processors, speakers, and control systems.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-tasks"></i>
+
+                        <h4 class="text-dark">Project Management</h4>
+                        <p>
+                            End-to-end project management ensuring timely execution,
+                            coordination, and quality delivery of audio installations.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-plug"></i>
+
+                        <h4 class="text-dark">Installation & Commissioning</h4>
+                        <p>
+                            Professional installation, calibration, and commissioning
+                            to achieve optimal system performance and reliability.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-tools"></i>
+                        <h4 class="text-dark">Maintenance & Service</h4>
+                        <p>
+                            Reliable after-sales service, preventive maintenance,
+                            and technical support for genuine products supplied by us.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="item h-100">
+                        <i class="fas fa-headset"></i>
+                        <h4 class="text-dark">Technical Support</h4>
+                        <p>
+                            Dedicated technical assistance and on-site support to ensure
+                            smooth operation and long-term system performance.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
             </div>
         </div>
-
-        <div class="row our-offer-items less-carousel">
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                    <i class="fas fa-drafting-compass"></i>
-
-                    <h4 class="text-dark">Audio System Design</h4>
-                    <p>
-                        Customized professional audio system design for auditoriums,
-                        cinemas, clubs, conference rooms, and large venues.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                   <i class="fas fa-project-diagram"></i>
-                    <h4 class="text-dark">System Integration</h4>
-                    <p>
-                        Complete integration of premium audio equipment including
-                        amplifiers, processors, speakers, and control systems.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                    <i class="fas fa-tasks"></i>
-
-                    <h4 class="text-dark">Project Management</h4>
-                    <p>
-                        End-to-end project management ensuring timely execution,
-                        coordination, and quality delivery of audio installations.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                    <i class="fas fa-plug"></i>
-
-                    <h4 class="text-dark">Installation & Commissioning</h4>
-                    <p>
-                        Professional installation, calibration, and commissioning
-                        to achieve optimal system performance and reliability.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                    <i class="fas fa-tools"></i>
-                    <h4 class="text-dark">Maintenance & Service</h4>
-                    <p>
-                        Reliable after-sales service, preventive maintenance,
-                        and technical support for genuine products supplied by us.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-            <!-- Single Item -->
-            <div class="col-md-4 col-sm-6 equal-height">
-                <div class="item h-100">
-                    <i class="fas fa-headset"></i>
-                    <h4 class="text-dark">Technical Support</h4>
-                    <p>
-                        Dedicated technical assistance and on-site support to ensure
-                        smooth operation and long-term system performance.
-                    </p>
-                </div>
-            </div>
-            <!-- End Single Item -->
-
-        </div>
-    </div>
-</section>
-
-
+    </section>
 @endsection

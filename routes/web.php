@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 /*header start route*/
 Route::get('/', [UserController::class, 'index'])->name('index');
+Route::get('/awards', [UserController::class, 'awards'])->name('awards');
 Route::get('/about', [UserController::class, 'about'])->name('about');
 Route::get('/service', [UserController::class, 'service'])->name('service');
 Route::get('/testimonial', [UserController::class, 'testimonial'])->name('testimonial');
